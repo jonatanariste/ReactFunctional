@@ -1,0 +1,33 @@
+.carrito-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+.carrito-item-img {
+  height: 70px;
+}
+
+.carrito-item-borrar {
+  height: 25px;
+}
+
+.carrito-item-precio {
+  margin: 0px;
+}
+.carrito-txt {
+  text-align: left;
+  width: 170px;
+  border-bottom: solid 1px #333;
+  padding-bottom: 5px;
+}
+.carrito-item-titulo {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+.carrito-precio {
+  width: 100%;
+  text-align: right;
+  margin-top: 15px;
+}

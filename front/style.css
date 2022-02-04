@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #666;
+}
+.carritou {
+  width: 36px;
+  position: absolute;
+  right: 24px;
+  top: 50px;
+}
+.volver {
+  width: 20px;
+  position: absolute;
+  left: 24px;
+  top: 58px;
+}
+.titulo {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.wraper {
+  display: block;
+  width: 355px;
+  height: 90vh;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.home-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px #999;
+  width: 130px;
+  margin: 5px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.home-item-img {
+  width: 70%;
+}
+.home-item-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-item-titulo {
+  margin: 0px;
+  font-size: 20px;
+}
+.home-item-medidas {
+  margin: 0px;
+  font-size: 12px;
+}
+.home-item-actions {
+  margin: 0px;
+  margin-top: 20px;
+}
+.home-item-precio {
+  margin: 0px;
+}
+.home-item-comprar {
+  margin: 0px;
+  background: #2f39ff;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+  width: 40px;
+}
+
+.carrito {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.carrito-listadito {
+  width: 100%;
+  height: 50vh;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.carrito-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+.carrito-item-img {
+  height: 70px;
+}
+
+.carrito-item-borrar {
+  height: 25px;
+}
+
+.carrito-item-precio {
+  margin: 0px;
+}
+.carrito-txt {
+  text-align: left;
+  width: 170px;
+  border-bottom: solid 1px #333;
+  padding-bottom: 5px;
+}
+.carrito-item-titulo {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+.carrito-precio {
+  width: 100%;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.detalle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.detalle-img {
+  width: 80%;
+}
+.detalle p {
+  text-align: center;
+}

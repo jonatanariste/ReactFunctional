@@ -1,0 +1,14 @@
+.detalle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.detalle-img {
+  width: 80%;
+}
+.detalle p {
+  text-align: center;
+}
